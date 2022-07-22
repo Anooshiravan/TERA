@@ -33,15 +33,15 @@ https://pytorch.org/get-started/locally/
 The installation command is:  
 ```pip install torch torchvision torchaudio — extra-index-url https://download.pytorch.org/whl/cu113```
 
-To install Jupyter notebook, the Hugging Face transformers and FastAPI, try:
-```pip install — upgrade pip```
-```pip install jupyter```
-```pip install transformers```
-```pip install fastapi```
-```pip install "uvicorn[standard]"```
+To install Jupyter notebook, the Hugging Face transformers and FastAPI, try:  
+```pip install — upgrade pip```  
+```pip install jupyter```  
+```pip install transformers```  
+```pip install fastapi```  
+```pip install "uvicorn[standard]"```  
 
-At this point you must be able to run server by going to SERVER folder and execute:
-```uvicorn main:app```
+At this point you must be able to run server by going to SERVER folder and execute:  
+```uvicorn main:app```  
 
 The output looks like this:  
 
