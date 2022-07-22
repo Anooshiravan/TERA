@@ -2,7 +2,7 @@
 This project is a collection of python scripts and Jupyter notebooks for working with Generative Pretrained Transformers (GPT) models provided by the EleutherAI and HuggingFace AI community. GPT is a neural network machine learning model trained using internet data to generate any type of text.
 
 
-[![HuggingFace](IMG/hflogo.png)](https://huggingface.co/EleutherAI/)
+[![HuggingFace](img/hflogo.png)](https://huggingface.co/EleutherAI/)
 
 API is tested with the following models:
 * EleutherAI/gpt-neo-125M
@@ -22,13 +22,13 @@ If you have an nVidia GPU on the system (e.g. laptop) install latest version of 
 After reboot, device manager shows the available graphic card. 
 To ensure that Nvidia drivers are working properly and the GPU is recognized, use the **nvidia-smi** command line utility:  
 
-![](IMG/nvidia-smi.png)
+![](img/nvidia-smi.png)
 
 The minimum version of Python to run the Hugging Face transformers for GPT-J-6B is Python 3.10.x  
 PyTorch needs to be installed by the command provided by PyTorch website:
 https://pytorch.org/get-started/locally/
 
-![](IMG/pytorch.png)
+![](img/pytorch.png)
 
 The installation command is:
 ```pip install torch torchvision torchaudio — extra-index-url https://download.pytorch.org/whl/cu113```
@@ -45,7 +45,7 @@ At this point you must be able to run server by going to SERVER folder and execu
 
 The output looks like this:  
 
-![](IMG/server.png)
+![](img/server.png)
 
 The URL to browse the API endpoint:
 http://localhost:8000/docs
@@ -53,13 +53,10 @@ http://localhost:8000/docs
 To test the endpoint, expand the POST section and click on "Try it out" button.
 Change the tokens to e.g. 256 and type a string for prompt:  
 
-![](IMG/prompt.png)
+![](img/prompt.png)
 
 After clicking on "Execute" botton, the output is generated:  
 
-![](IMG/response.png)
+![](img/response.png)
 
 If a response (generated text) received from API, it means the Tera server is configured properly.  
-
-
-
