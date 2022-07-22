@@ -30,7 +30,7 @@ https://pytorch.org/get-started/locally/
 
 ![](img/pytorch.png)
 
-The installation command is:
+The installation command is:  
 ```pip install torch torchvision torchaudio — extra-index-url https://download.pytorch.org/whl/cu113```
 
 To install Jupyter notebook, the Hugging Face transformers and FastAPI, try:
